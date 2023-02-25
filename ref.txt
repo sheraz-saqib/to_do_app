@@ -1,0 +1,28 @@
+// const edit = (e)=>{
+//     let ediTxt = prompt('to edit this', e.parentNode.firstChild.nodeValue);
+//     parentNode.firstChild.nodeValue = ediTxt;
+//     let mian_li = document.createElement('div');
+//     mian_li.classList.add('mian-li');
+//     mian_li.insertAdjacentHTML('afterbegin',`
+//     <li class="task-li">
+//     ${inputData.value}
+//     </li>
+//     <span class="li-btn">
+//         <button onclick="edit(this)" class="btn green"><i class='bx bxs-message-square-edit' ></i>edit</button>
+//         <button class="btn red"><i class='bx bxs-message-square-x' ></i>delete task</button>
+//     </span>`);
+//  task_ul.append(mian_li).style.display='none'
+// }
+// function toggleTex(){
+//     const greenBtn = document.querySelector('#green');
+//     let editText = `<i class='bx bxs-message-square-edit'></i>edit`
+//     let saveText = `<i class='bx bxs-save' ></i>save`
+//     if(greenBtn.innerHTML =editText){
+//         greenBtn.innerHTML= saveText;
+//         console.log('fir');
+//     }
+//     else if(greenBtn.innerHTML ="<i class='bx bxs-message-square-edit'></i>edit"){
+//         greenBtn.innerHTML=saveText;
+//         console.log('sec');
+//     }
+// }

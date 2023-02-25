@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do || app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="center">
+
+    <div class="contianer">
+        <div class="container-head">
+            <h2>add a daily tasks</h2>
+        </div>
+        <div class="main-section">
+        <div class="getInpt">
+            <input type="text" id="getData" placeholder="My Task" >
+
+            <div class="input-btn">
+                <button onclick="getTask()" class="btn green" ><i class='bx bxs-folder'></i>add task</button>
+                <button onclick="getDeleleAll()" class="btn red" ><i class='bx bxs-trash-alt' ></i>delete all task</button>
+            </div>
+        </div>
+        <div class="error-box">
+        <span class="error"></span>
+    </div>
+        </div>
+<!-- ul list -->
+<!-- ul list -->
+<!-- ul list -->
+<div class="container-head second-header">
+    <h2>my tasks</h2>
+</div>
+<div class="task-list">
+ 
+    <ul class="task-ul ">
+        <!-- task-start -->
+        <!-- <div class="mian-li">
+        <li class="task-li">
+            it is my fist javascript project to do app 
+            it is my fist javascript project to do app 
+        </li>
+        <span class="li-btn">
+            <button class="btn green"><i class='bx bxs-message-square-edit' ></i>edit</button>
+            <button class="btn red"><i class='bx bxs-message-square-x' ></i>delete task</button>
+        </span>
+    </div> -->
+<!-- task-end -->
+    </ul>
+</div>
+
+    </div>
+</div>
+    <!-- script -->
+    <script src="app.js"></script>
+</body>
+</html>
